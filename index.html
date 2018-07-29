@@ -28,8 +28,7 @@
                 <h3>programming student</h3>
             </div>
             <div class="educational_audience">
-                <img src="img/educational_audience.jpg" alt="audience">
-                <p>HI, my name is Andriy Tsar.
+                <p> <img src="img/educational_audience.jpg" alt="audience" > HI, my name is Andriy Tsar.
 I'm 27 years old. I worked in many areas and never thought about programming. Once I decided to try programming and I liked it. I saw ads about programming courses at a major company SoftServe on the Internet. Now I am a student of the front end developer at SoftServe School. I was lucky with a class teacher Vyacheslav Koldovsky. The training is interesting and useful.
 I hope to master programming and become a team of SoftServe.
 
@@ -94,30 +93,29 @@ https://ihatetomatoes.net/one-page-scroll-with-animations/</li>
     <footer>
         <h2>Links</h2>
         <h3>here you can find me</h3>
-            <img src="img/facebook.jpg" alt="facebook">
-                <p>
-                   <a href="https://www.facebook.com/profile.php?id=100007917706142">Facebook</a>
-                </p>
-            <img src="img/gmail.png" alt="gmail">
-                <p>tsarandrij@gmail.com</p>
-            <img src="img/youtube.png" alt="youtube">
-                <p>
-                   <a href="https://www.youtube.com/channel/UCPBeIpQGouoji1DdfJ_8kVg?view_as=subscriber">YouTube</a> 
-                </p>
-                
+        <div class="facebook">
+            <p>
+                <a href="https://www.facebook.com/profile.php?id=100007917706142"><img src="img/facebook.jpg" alt="facebook"></a>
+            </p>    
+        </div>
+        <div class="gmail">
+                <p><img src="img/gmail.png" alt="gmail"></p>
+        </div>
+        <div class="youtube">
+            <p>
+                <a href="https://www.youtube.com/channel/UCPBeIpQGouoji1DdfJ_8kVg?view_as=subscriber"><img src="img/youtube.png" alt="youtube"></a> 
+            </p>
+        </div>
+        <h3>tsarandrij@gmail.com</h3>
 	    <div id="contact_me">
+	        <form class="css3Form">
             <h3>Contact me</h3>
-        	<form method="POST" action="form.php">
-                <label for="your-name">Your Name :</label>
-                   <input type="text" name="your-name" id="your-name" required>
-                   <br>
-                <label>Your Email Address :</label> 
-                   <input type="email" name="your-email" required>
-                   <br>
-                <label>Your message  :</label>
-                   <textarea placeholder="Your-message"></textarea>
-                   <br>
-                <input type="submit">
+                <ul>
+                   <li><input type="text" value="Your Name"/></li>
+                   <li><input type="text" value="Email Address"/></li>    
+                   <li><textarea rows="5"> Comments </textarea></li>
+                </ul>
+            <input type="button" class="button" value="Send" />
             </form>
         </div>
     </footer>
